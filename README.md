@@ -2,6 +2,10 @@
 
 DS7400 Deep Learning — Homework 1. A React web-based audio data viewer for exploring how vocal delivery, words, and contextual information contribute to perceived emotion. This submission is a foundation for later deep learning work, not a trained emotion model or a validated benchmark.
 
+**Public viewer:** https://georg11a.github.io/deep-learning-assignments/
+
+The public GitHub Pages version is a static frontend: annotations persist in that browser and can be exported as JSON. SQLite is available only when the project is run locally with `server.py`; GitHub Pages cannot run the Python backend.
+
 ## Run locally
 
 Requirements: a current Node.js LTS release compatible with Vite 7 (Node 20.19+ or 22.12+), npm, and Python 3.10+. No GPU, API key, paid service, or Python package installation is needed.
